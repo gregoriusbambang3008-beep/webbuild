@@ -13,3 +13,12 @@ nav a{
 nav a:hover{
     color: black;
 }
+.home{
+    color: black;
+    text-decoration: none;
+    background-image: url("file:///C:/Users/Administrator/Downloads/Gemini_Generated_Image_u35foeu35foeu35f.jpg");
+}
+.deskripsiHome{
+    width: 40%;
+    height: 50px;
+}
