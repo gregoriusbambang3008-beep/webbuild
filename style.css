@@ -1,0 +1,15 @@
+header{
+    text-align: 100px;
+}
+nav{
+    margin-top: 10px;
+}
+nav a{
+    text-decoration: none;
+    color: #808080;
+    padding: 5px 15px;
+    font-size: 15px;
+}
+nav a:hover{
+    color: black;
+}
