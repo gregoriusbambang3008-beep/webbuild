@@ -1,24 +1,124 @@
-header{
-    text-align: 100px;
+body{
+    margin: 0px;
+    background-image: url(Gemini_Generated_Image_t8ye84t8ye84t8ye.png);
 }
+html{
+    scroll-behavior: smooth;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    background-color: bisque;
+  
+}
+.banner{
+    padding: 10px;
+}
+
 nav{
-    margin-top: 10px;
+    padding: 10px 20px;
 }
 nav a{
-    text-decoration: none;
-    color: #808080;
     padding: 5px 15px;
-    font-size: 15px;
+    text-decoration: none;
+    color:sandybrown
 }
 nav a:hover{
-    color: black;
+    color:sienna ;
 }
-.home{
-    color: black;
-    text-decoration: none;
-    background-image: url("file:///C:/Users/Administrator/Downloads/Gemini_Generated_Image_u35foeu35foeu35f.jpg");
+
+section.home{
+    height: 800px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image:url("img1.png");
+    color:navajowhite;
+    font-size: 20px;
+}
+.containerHome{
+    width: 50%;
+    margin-left: 10px;
+    padding-top: 25px;
+    
+}
+
+section.about {
+   height: 800px;
+}
+.containerAbout{
+    width: 50%;
+    margin: auto;
+    padding: 50px 20px;
+    text-align: center;
+    width:200px;
 }
 .deskripsiHome{
+    padding-left: 20px;
+    padding-top: 20px;
+    text-align:left;
+
+}
+section.profile{
+    height: 800px;
+    padding-top: 50px;
+}
+.cardProfile{
+    background-color: rgb(213, 209, 209);
+    padding: 15px;
+    width:300px;
+    margin: auto;
+    text-align: center;
+}
+img{
+    width:100%;
+}
+.medsos{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height:40px;
+    padding-top:5px;
+}
+.medsos a{
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 24px;
+
+}
+.kotakBiotek {
     width: 40%;
-    height: 50px;
+    margin-left: 50px;
+    padding-top: 100px;
+}
+
+.namaBiotek {
+    font-size: 50px;
+}
+
+.deskBiotek {
+    color:salmon;
+    font-size: 20px;
+    padding: 5px;
+    background-color:saddlebrown;
+    border-radius:10px;
+}
+section.project img{
+    height: 300px;
+    width: 470px;
+    padding: 100px;
+    border-image: repeat;
+    align-items: center;
+}
+.deskProject{
+    width: 60%;
+    margin: auto;
+    padding: 50px 20px;
+    background-color: saddlebrown;
+    background-position: center;
+    margin-top: 100px;
 }
