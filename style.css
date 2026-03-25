@@ -1,124 +1,156 @@
 body{
-    margin: 0px;
-    background-image: url(Gemini_Generated_Image_t8ye84t8ye84t8ye.png);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("WhatsApp\ Image\ 2026-03-25\ at\ 12.24.32.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
-header{
+header img{
+    height: 120px;
+    justify-content: left;
+    padding:5px;
+}
+header {
     display: flex;
     justify-content: space-between;
-    text-align: center;
+    align-items: center;
     width: 100%;
     position: fixed;
+    top: 0;
     background-color: bisque;
-  
-}
-.banner{
-    padding: 10px;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-nav{
+.banner {
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+nav {
     padding: 10px 20px;
 }
-nav a{
-    padding: 5px 15px;
+
+nav a {
     text-decoration: none;
-    color:sandybrown
-}
-nav a:hover{
-    color:sienna ;
+    color: rgb(255, 255, 255);
+    padding: 5px 15px;
+    font-size: 16px;
+    transition: 0.3s;
 }
 
-section.home{
-    height: 800px;
-    background-size:cover;
+nav a:hover {
+    color: sienna;
+}
+
+section.home {
+    height: 100vh; 
+    background-image: url("img1.png");
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-image:url("img1.png");
-    color:navajowhite;
-    font-size: 20px;
-}
-.containerHome{
-    width: 50%;
-    margin-left: 10px;
-    padding-top: 25px;
-    
+    color: navajowhite;
+    display: flex;
+    align-items: center;
+    padding-top: 60px; 
 }
 
-section.about {
-   height: 800px;
+.deskripsiHome {
+    padding: 40px;
+    width: 60%;
+    background-color: rgba(0, 0, 0, 0.5); /* Overlay agar teks mudah dibaca */
+    border-radius: 10px;
+    margin-left: 20px;
 }
-.containerAbout{
-    width: 50%;
-    margin: auto;
-    padding: 50px 20px;
-    text-align: center;
-    width:200px;
-}
-.deskripsiHome{
-    padding-left: 20px;
-    padding-top: 20px;
-    text-align:left;
 
-}
-section.profile{
-    height: 800px;
-    padding-top: 50px;
-}
-.cardProfile{
-    background-color: rgb(213, 209, 209);
-    padding: 15px;
-    width:300px;
-    margin: auto;
-    text-align: center;
-}
-img{
-    width:100%;
-}
-.medsos{
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    height:40px;
-    padding-top:5px;
-}
-.medsos a{
-    text-decoration: none;
-    padding: 10px 10px;
-    font-size: 24px;
-
-}
 .kotakBiotek {
-    width: 40%;
-    margin-left: 50px;
-    padding-top: 100px;
+    width: 80%;
+    margin: 100px auto;
+    text-align: center;
 }
 
 .namaBiotek {
-    font-size: 50px;
+    font-size: 40px;
+    color: saddlebrown;
+    margin-bottom: 20px;
 }
 
 .deskBiotek {
-    color:salmon;
-    font-size: 20px;
-    padding: 5px;
-    background-color:saddlebrown;
-    border-radius:10px;
-}
-section.project img{
-    height: 300px;
-    width: 470px;
-    padding: 100px;
-    border-image: repeat;
-    align-items: center;
-}
-.deskProject{
-    width: 60%;
-    margin: auto;
-    padding: 50px 20px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    padding: 20px;
     background-color: saddlebrown;
-    background-position: center;
-    margin-top: 100px;
+    border-radius: 15px;
+    line-height: 1.6;
+}
+
+section.project {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.deskProject {
+    width: 70%;
+    margin: auto;
+    padding: 30px;
+    background-color: saddlebrown;
+    color: white;
+    border-radius: 15px;
+}
+
+section.project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+section.profile {
+    padding: 100px 0;
+    background-color: rgba(255, 255, 255, 0.1);
+    color:saddlebrown
+}
+
+.cardProfile {
+    background-color:saddlebrown;
+    padding: 30px;
+    width: 320px;
+    margin: auto;
+    text-align: center;
+    color: whitesmoke;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+}
+
+.cardProfile img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%; 
+    border: 3px solid whitesmoke;
+    margin-bottom: 15px;
+}
+
+.medsos {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.medsos a {
+    color: whitesmoke;
+    font-size: 24px;
+    transition: 0.3s;
+}
+
+.medsos a:hover {
+    color: sandybrown;
+    transform: translateY(-3px);
 }
