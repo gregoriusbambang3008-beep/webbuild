@@ -11,7 +11,7 @@ html {
     scroll-behavior: smooth;
 }
 header img{
-    height: 120px;
+    height: 85px;
     justify-content: left;
     padding:5px;
 }
@@ -58,7 +58,7 @@ section.home {
     color: navajowhite;
     display: flex;
     align-items: center;
-    padding-top: 60px; 
+    padding-top: 60px;
 }
 
 .deskripsiHome {
@@ -104,17 +104,27 @@ section.project {
     border-radius: 15px;
 }
 
+
 section.project img {
-    max-width: 100%;
+    max-width: 70%;
     height: auto;
-    border-radius: 10px;
-    margin-bottom: 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+section.howto {
+    text-align: center;
+    color: saddlebrown;
 }
 
 section.profile {
     padding: 100px 0;
     background-color: rgba(255, 255, 255, 0.1);
-    color:saddlebrown
+    color:saddlebrown;
+    text-align: center;
+    
 }
 
 .cardProfile {
@@ -142,6 +152,7 @@ section.profile {
     display: flex;
     justify-content: center;
     gap: 15px;
+    
 }
 
 .medsos a {
