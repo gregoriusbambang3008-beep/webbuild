@@ -1,156 +1,75 @@
 body{
     margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    background-image: url("WhatsApp\ Image\ 2026-03-25\ at\ 12.24.32.jpeg");
-    background-size: cover;
-    background-attachment: fixed;
 }
-
-html {
-    scroll-behavior: smooth;
-}
-header img{
-    height: 85px;
-    justify-content: left;
-    padding:5px;
-}
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.container{
+    background-color: black;
+    height: 600px;
     width: 100%;
-    position: fixed;
-    top: 0;
-    background-color:burlywood;
-    z-index: 1000;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
-
-.banner {
-    padding: 10px 20px;
-    font-weight: bold;
+.container div{
+    position: absolute;
+   font-size: 50px;
 }
-
-nav {
-    padding: 10px 20px;
+.container div:nth-child(1){
+    left: 5%;
+     border-radius: 50%;
+    animation: animasi 5s infinite linear;
 }
-
-nav a {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    padding: 5px 15px;
-    font-size: 16px;
-    transition: 0.3s;
-    text-shadow: 0 2px 5px gray;
     
+.container div:nth-child(2){
+    left: 50%;
+     border-radius: 50%;
+    animation: animasi 3s infinite linear;
+}
+.container div:nth-child(3){
+    left: 90%;
+    border-radius: 50%;
+    animation: animasi 4s infinite linear;
+}
+.container div:nth-child(4){
+    left: 20%;
+    border-radius: 50%;
+    animation: animasi 3.5s infinite linear;
+}
+.container div:nth-child(5){
+    left: 70%;
+    border-radius: 50%;
+    animation: animasi 4.5s infinite linear;
+}
+.container div:nth-child(6){
+    left: 75%;
+    border-radius: 50%;
+    animation: animasi 3.8s infinite linear;
+}
+.container div:nth-child(7){
+    left: 35%;
+    border-radius: 50%;
+    animation: animasi 4.2s infinite linear;
+}
+.container div:nth-child(8){
+    left: 45%;
+    border-radius: 50%;
+    animation: animasi 5s infinite linear;
+}
+.container div:nth-child(9){
+    left: 80%;
+    border-radius: 50%;
+    animation: animasi 4.7s infinite linear;
+}
+.container div:nth-child(10){
+    left: 15%;
+    border-radius: 50%;
+    animation: animasi 3.2s infinite linear;
 }
 
-nav a:hover {
-    color:saddlebrown;
-    background-color: whitesmoke;
-    border-radius: 10px 10px 10px 10px;
-    box-shadow: 2px 2px 5px black;
-}
 
-section.home {
-    height: 100vh; 
-    background-image: url("img1.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    color: navajowhite;
-    display: flex;
-    align-items: center;
-    padding-top: 60px;
-}
-
-.deskripsiHome {
-    padding: 40px;
-    width: 60%;
-    background-color: rgba(0, 0, 0, 0.5); 
-    border-radius: 10px;
-    margin-left: 20px;
-    margin-right: 525px;
-}
-
-
-
-
-section.project {
-    padding: 100px 0;
-    text-align: center;
-}
-
-.deskProject {
-    width: 70%;
-    margin: auto;
-    padding: 30px;
-    background-color: saddlebrown;
-    color: white;
-    border-radius: 15px;
-}
-
-
-section.project img {
-    max-width: 70%;
-    height: auto;
-    border-radius: 5px;
-    margin-bottom: 10px;
-    margin-left: 50px;
-    margin-right: 50px;
-}
-
-section.howto {
-    text-align: center;
-    color: whitesmoke;
-}
-
-section.profile {
-    padding: 100px 0;
-    background-color: rgba(255, 255, 255, 0.1);
-    color:whitesmoke;
-    text-align: center;
-    text-decoration: saddlebrown;
-    
-}
-
-.cardProfile {
-    background-color:saddlebrown;
-    padding: 30px;
-    width: 320px;
-    margin: auto;
-    text-align: center;
-    color: whitesmoke;
-    border-radius: 20px;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.5);
-}
-
-.cardProfile img {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 50%; 
-    border: 3px solid whitesmoke;
-    margin-bottom: 15px;
-}
-
-.medsos {
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    
-}
-
-.medsos a {
-    color: whitesmoke;
-    font-size: 24px;
-    transition: 0.3s;
-}
-
-.medsos a:hover {
-    color: sandybrown;
-    transform: translateY(-3px);
+@keyframes animasi {
+    0%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(500px);
+        opacity: 0;
+    }
 }
